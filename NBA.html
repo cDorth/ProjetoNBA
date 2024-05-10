@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>NBA</title>
+
+	<link id="tema" rel="stylesheet" type="text/css" href="Style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="shortcut icon" type="imagens/jpg" href="imagens/i.png"/>
+	<script src="nba.js"></script>
+	
+</head>
+
+
+
+<body class="body">
+	<div id="principal">
+		<div class="home">
+			<a href="NBA.html"><img id="logo" src="imagens/logo-nba.svg"></a>
+
+
+			<span class="pala"><a class="link" href="NBA_noticia1.html"> Tela1</a> |
+				<a class="link" href="NBA_noticia2.html"> Tela2</a> |
+				<a class="link" href="NBA_noticia3.html"> Tela3</a> |
+				<a class="link" href="NBA_noticia4.html"> Tela4</a> </span>
+				<br/>
+				<span class="ajeitar">	  <button type="button" onclick="at()"><img src="imagens/lua.png" class="icone"></button>
+					<button type="button" onclick="mono()"><img src="imagens/olho.png" class="icone"></button>
+				</span>
+		</div>
+
+		<center>
+			
+			<div class="slide">
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+						<li data-target="#myCarousel" data-slide-to="2"></li>
+						<li data-target="#myCarousel" data-slide-to="3"></li>
+						<li data-target="#myCarousel" data-slide-to="4"></li>
+					</ol>
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner">
+						<div class="item active">
+							<img class="slideimg" src="imagens/carossel1.jpg">
+						</div>
+						
+
+						<div class="item">
+							<img class="slideimg" src="imagens/carrosel2.jpg">
+						</div>
+
+						
+						<div class="item">
+							<img class="slideimg" src="imagens/carrosel4.webp">
+						</div>
+						<div class="item">
+							<img class="slideimg" src="imagens/carrosel5.jpeg">
+						</div>
+						<div class="item">
+							<img class="slideimg" src="imagens/carrosel3.jpg">
+						</div>
+					</div>
+
+					<!-- Left and right controls -->
+					<a style="background-image: linear-gradient(to right darkgray,transparent);"
+						class="left carousel-control" href="#myCarousel" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a style="background-image: linear-gradient(to right darkgray,transparent);"
+						class="right carousel-control" href="#myCarousel" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+
+		</center>
+
+
+
+
+
+
+
+		<div class="tudo">
+
+			<div class="esquerda">
+
+
+				<div class="noti">
+					<h3>NOSSAS NOTICIAS</h3>
+					<br />
+					<div class="imgnoti">
+						<a href="NBA_noticia1.html">
+						<div style="background-image: url(imagens/trofeu.jpg); background-size: cover;background-position-x: center; height: 74%;"></div>
+					</a>
+						-Conheça a temporada regular
+						<br/>
+						-Os Play-offs
+						<br/>
+						-Play-Ins
+						<br/>
+						-Finais de Conferencia
+						<br/>
+						-E a NBA Finals
+						
+					</div>
+					<div class="imgnoti">
+						<a href="NBA_noticia2.html">
+						<div style="background-image: url(imagens/Miami_Heat.png); background-size: cover; height: 74%;"></div>
+					</a>
+						-Conheça de Miami
+						<br/>
+						-Sua incrivél recuperão
+						<br/>
+						-Grandes jogos com os favoritos
+						<br/>
+						-Seu grande Jogador Jimmy Butler
+
+					</div>	
+					<div class="imgnoti">
+						<a href="NBA_noticia3.html">
+						<div style="background-image: url(imagens/denverLogo.png); background-size: cover; height: 74%; background-position-x: center;"></div>
+					</a>
+						-Grande campeão Denver
+						<br/>
+						-Seu incrivél MVP
+						<br/>
+						-Varrida nas Finais de conferencia
+						<br/>
+						-uma final perfeita
+
+					</div>
+					<div class="imgnoti"> 
+						<a href="NBA_noticia4.html">
+						<div style="background-image: url(imagens/victo.jpg); background-size: cover; height: 74%;"></div>
+					</a>
+						-Gramde promessa Francessa
+						<br/>
+						-Porquê ter medo dele
+						<br/>
+						-O grande impacto que ele pode causar
+						<br/>
+						-Novo Tim Duncan
+
+					</div>
+
+				</div>
+
+				<div class="final">
+
+					<h3>NBA-FINALS</h3>
+
+					<a href="NBA_noticia3.html"><div class="camp"> </div></a>
+
+					<a href="NBA_noticia2.html"><div class="vice"> </div></a>
+
+				<div class="notifinalcamp">A grande conquista ao titulo da NBA de 2023, Denver Nuggets e Nikola Jokic</div>
+				<div class="notifinalvice">Incrível recuperação e vitorias emocionantes contra times favoritos ao titulo</div>
+
+				</div>
+
+
+
+
+			</div>
+
+			<div class="direita">
+				<center>
+					<div class="tabela">
+						<br />
+						<h3> 2022-23 Classifição </h3>
+
+						<button onclick="showTable(1)">Leste</button>
+
+						<button onclick="showTable(2)">Oeste</button>
+
+						<div>
+							<table id="tabela1" class="s1">
+								<thead>
+									<tr>
+										<th class="times">TIMES </th>
+										<th class="jogos"> V </th>
+										<th class="jogos"> L </th>
+										<th class="jogos"> Ultimas 10 </th>
+									</tr>
+
+									<tbody>
+										<tr>
+											<td> <a class="link" href="https://www.nba.com/team/1610612749">
+												
+												<div >
+													<div> <span class="alinharspan"> 1 </span> <img src="times/Bucks.png" class="logo_times"> <span>MIL</span></div>
+												</div>
+												
+											</a>	
+										</td>
+
+
+											<td>58</td>
+											<td>24</td>
+											<td><div class="verdinho">
+												6
+												-
+												4
+											</div></td>
+										</tr>
+
+
+										<tr>
+											<td ><a class="link" href="https://www.nba.com/team/1610612738">
+												
+												<div >
+													<div> <span class="alinharspan"> 2 </span> <img src="times/Boston.png" class="logo_times"> <span>BOS</span></div>
+												</div>
+												
+											</a>	
+										</td>
+
+
+											<td>57</td>
+											<td>25</td>
+											<td><div class="verdao">
+												8
+												-
+												2
+											</div></td>
+										</tr>
+
+
+											<tr>
+											<td> <a class="link" href="https://www.nba.com/team/1610612755">
+												
+												<div >
+													<div> <span class="alinharspan"> 3 </span> <img src="timeS/76ers.png" class="logo_times"> <span>PHI</span></div>
+												</div>
+												
+											</a>	
+										</td>
+
+
+											<td>54</td>
+											<td>28</td>
+											<td><div class="amarelo">
+												5
+												-
+												5
+											</div></td>
+										</tr>
+
+										<tr>
+											<td> <a class="link" href="https://www.nba.com/team/1610612739">
+												
+												<div >
+													<div> <span class="alinharspan"> 4 </span> <img src="timeS/Cavaliers.png" class="logo_times"> <span>CLE</span></div>
+												</div>
+												
+											</a>	
+										</td>
+
+
+											<td>51</td>
+											<td>31</td>
+											<td><div class="verde">
+												7
+												-
+												3
+											</div></td>
+										</tr>
+
+										<tr>
+											<td> <a class="link" href="https://www.nba.com/team/1610612752">
+												
+												<div >
+													<div> <span class="alinharspan"> 5 </span> <img src="timeS/Knicks.png" class="logo_times"> <span>NYK</span></div>
+												</div>
+												
+											</a>	
+										</td>
+
+
+											<td>47</td>
+											<td>35</td>
+											<td><div class="amarelo">
+												5
+												-
+												5
+											</div></td>
+										</tr>
+
+										<tr>
+											<td> <a class="link" href="https://www.nba.com/team/1610612751">
+												
+												<div >
+													<div> <span class="alinharspan"> 6 </span> <img src="timeS/Nets.png" class="logo_times"> <span>BKN</span></div>
+												</div>
+												
+											</a>	
+										</td>
+
+
+											<td>45</td>
+											<td>37</td>
+											<td><div class="verdinho">
+												6
+												-
+												4
+											</div></td>
+										</tr>
+
+										<tr>
+											<td> <a class="link" href="https://www.nba.com/team/1610612737">
+												
+												<div >
+													<div> <span class="alinharspan"> 7 </span> <img src="timeS/Atlanta.png" class="logo_times"> <span>ATL</span></div>
+												</div>
+												
+											</a>	
+										</td>
+
+
+											<td>41</td>
+											<td>41</td>
+											<td><div class="amarelo">
+												5
+												-
+												5
+											</div></td>
+										</tr>
+
+										<tr>
+											<td> <a class="link" href="https://www.nba.com/team/1610612748">
+												
+												<div >
+													<div> <span class="alinharspan"> 8 </span> <img src="timeS/Heat.png" class="logo_times"> <span>MIA</span></div>
+												</div>
+												
+											</a>	
+										</td>
+
+
+											<td>44</td>
+											<td>38</td>
+											<td><div class="verdinho">
+												6
+												-
+												4
+											</div></td>
+										</tr>
+
+										<tr>
+											<td> <a class="link" href="https://www.nba.com/team/1610612761">
+												
+												<div >
+													<div> <span class="alinharspan"> 9 </span> <img src="timeS/Toronto.png" class="logo_times"> <span>TOR</span></div>
+												</div>
+												
+											</a>	
+										</td>
+
+
+											<td>41</td>
+											<td>41</td>
+											<td><div class="verdinho">
+												6
+												-
+												4
+											</div></td>
+										</tr>
+
+										<tr>
+											<td> <a class="link" href="https://www.nba.com/team/1610612741">
+												
+												<div >
+													<div> <span class="alinharspan"> 10 </span> <img src="timeS/Bulls.png" class="logo_times"> <span>CHI</span></div>
+												</div>
+												
+											</a>	
+										</td>
+
+
+											<td>40</td>
+											<td>42</td>
+											<td><div class="verdinho">
+												6
+												-
+												4
+											</div></td>
+										</tr>
+
+										<tr>
+											<td> <a class="link" href="https://www.nba.com/team/1610612754">
+												
+												<div >
+													<div> <span class="alinharspan"> 11 </span> <img src="timeS/Pacers.png" class="logo_times"> <span>IND</span></div>
+												</div>
+												
+											</a>	
+										</td>
+
+
+											<td>35</td>
+											<td>47</td>
+											<td><div class="laranja">
+												3
+												-
+												7
+											</div></td>
+										</tr>
+
+										<tr>
+											<td> <a class="link" href="https://www.nba.com/team/1610612764">
+												
+												<div >
+													<div> <span class="alinharspan"> 12 </span> <img src="timeS/Wizards.png" class="logo_times"> <span>WAS</span></div>
+												</div>
+												
+											</a>	
+										</td>
+
+
+											<td>35</td>
+											<td>47</td>
+											<td><div class="laranja">
+												3
+												-
+												7
+											</div></td>
+										</tr>
+
+										<tr>
+											<td> <a class="link" href="https://www.nba.com/team/1610612753">
+												
+												<div >
+													<div> <span class="alinharspan"> 13 </span> <img src="timeS/Magic.png" class="logo_times"> <span>ORl</span></div>
+												</div>
+												
+											</a>	
+										</td>
+
+
+											<td>34</td>
+											<td>48</td>
+											<td><div class="amarelo">
+												5
+												-
+												5
+											</div></td>
+										</tr>
+
+										<tr>
+											<td> <a class="link" href="https://www.nba.com/team/1610612766">
+												
+												<div >
+													<div> <span class="alinharspan"> 14 </span> <img src="timeS/Hornets.png" class="logo_times"> <span>CHA</span></div>
+												</div>
+												
+											</a>	
+										</td>
+
+
+											<td>27</td>
+											<td>55</td>
+											<td><div class="amarelo">
+												5
+												-
+												5
+											</div></td>
+										</tr>
+
+										<tr>
+											<td> <a class="link" href="https://www.nba.com/team/1610612765">
+												
+												<div >
+													<div> <span class="alinharspan"> 15 </span> <img src="timeS/Detroit.png" class="logo_times"> <span>DET</span></div>
+												</div>
+												
+											</a>	
+										</td>
+
+
+											<td>17</td>
+											<td>65</td>
+											<td><div class="vermelho">
+												1
+												-
+												9
+											</div></td>
+										</tr>
+
+										
+
+									</tbody>
+								</thead>
+
+
+
+							</table>
+
+
+							<table id="tabela2"  class="s2">
+								<thead>
+									<tr>
+										<th class="times">TIMES </th>
+										<th class="jogos"> V </th>
+										<th class="jogos"> L </th>
+										<th class="jogos"> Ultimas 10 </th>
+									</tr>
+
+									<tbody>
+										<tr>
+											<td> <a class="link" href="https://www.nba.com/team/1610612743">
+												
+												<div >
+													<div> <span class="alinharspan"> 1 </span> <img src="times/Denver.png" class="logo_times"> <span>DEN</span></div>
+												</div>
+												
+											</a>	
+										</td>
+
+
+											<td>53</td>
+											<td>29</td>
+											<td><div class="amarelo">
+												5
+												-
+												5
+											</div></td>
+										</tr>
+
+
+										<tr>
+											<td ><a class="link" href="https://www.nba.com/team/1610612763">
+												
+												<div >
+													<div> <span class="alinharspan"> 2 </span> <img src="times/Memphis.png" class="logo_times"> <span>MEM</span></div>
+												</div>
+												
+											</a>	
+										</td>
+
+
+											<td>51</td>
+											<td>31</td>
+											<td><div class="verdinho">
+												6
+												-
+												4
+											</div></td>
+										</tr>
+
+
+											<tr>
+											<td> <a class="link" href="https://www.nba.com/team/1610612758">
+												
+												<div >
+													<div> <span class="alinharspan"> 3 </span> <img src="timeS/Kings.png" class="logo_times"> <span>SAC</span></div>
+												</div>
+												
+											</a>	
+										</td>
+
+
+											<td>48</td>
+											<td>34</td>
+											<td><div class="amarelo">
+												5
+												-
+												5
+											</div></td>
+										</tr>
+
+										<tr>
+											<td> <a class="link" href="https://www.nba.com/team/1610612756">
+												
+												<div >
+													<div> <span class="alinharspan"> 4 </span> <img src="timeS/Phoenix.png" class="logo_times"> <span>PHX</span></div>
+												</div>
+												
+											</a>	
+										</td>
+
+
+											<td>45</td>
+											<td>37</td>
+											<td><div class="verde">
+												7
+												-
+												3
+											</div></td>
+										</tr>
+
+										<tr>
+											<td> <a class="link" href="https://www.nba.com/team/1610612746">
+												
+												<div >
+													<div> <span class="alinharspan"> 5 </span> <img src="timeS/Clippers.png" class="logo_times"> <span>LAC</span></div>
+												</div>
+												
+											</a>	
+										</td>
+
+
+											<td>44</td>
+											<td>38</td>
+											<td><div class="verdinho">
+												6
+												-
+												4
+											</div></td>
+										</tr>
+
+										<tr>
+											<td> <a class="link" href="https://www.nba.com/team/1610612744">
+												
+												<div >
+													<div> <span class="alinharspan"> 6 </span> <img src="timeS/Golden.png" class="logo_times"> <span>GSW</span></div>
+												</div>
+												
+											</a>	
+										</td>
+
+
+											<td>44</td>
+											<td>38</td>
+											<td><div class="verdao">
+												8
+												-
+												2
+											</div></td>
+										</tr>
+
+										<tr>
+											<td> <a class="link" href="https://www.nba.com/team/1610612747">
+												
+												<div >
+													<div> <span class="alinharspan"> 7 </span> <img src="timeS/Lakers.png" class="logo_times"> <span>LAL</span></div>
+												</div>
+												
+											</a>	
+										</td>
+
+
+											<td>43</td>
+											<td>39</td>
+											<td><div class="verdao">
+												8
+												-
+												2
+											</div></td>
+										</tr>
+
+										<tr>
+											<td> <a class="link" href="https://www.nba.com/team/1610612750">
+												
+												<div >
+													<div> <span class="alinharspan"> 8 </span> <img src="timeS/Minnesota.png" class="logo_times"> <span>MIN</span></div>
+												</div>
+												
+											</a>	
+										</td>
+
+
+											<td>42</td>
+											<td>40</td>
+											<td><div class="verde">
+												7
+												-
+												3
+											</div></td>
+										</tr>
+
+										<tr>
+											<td> <a class="link" href="https://www.nba.com/team/1610612740">
+												
+												<div >
+													<div> <span class="alinharspan"> 9 </span> <img src="timeS/NewOrleans.png" class="logo_times"> <span>NOP</span></div>
+												</div>
+												
+											</a>	
+										</td>
+
+
+											<td>42</td>
+											<td>40</td>
+											<td><div class="verde">
+												7
+												-
+												3
+											</div></td>
+										</tr>
+
+										<tr>
+											<td> <a class="link" href="https://www.nba.com/team/1610612760">
+												
+												<div >
+													<div> <span class="alinharspan"> 10 </span> <img src="timeS/Oklahoma.png" class="logo_times"> <span>OKC</span></div>
+												</div>
+												
+											</a>	
+										</td>
+
+
+											<td>40</td>
+											<td>42</td>
+											<td><div class="laranjinha">
+												4
+												-
+												6
+											</div></td>
+										</tr>
+
+										<tr>
+											<td> <a class="link" href="https://www.nba.com/team/1610612742">
+												
+												<div >
+													<div> <span class="alinharspan"> 11 </span> <img src="timeS/Mavericks.png" class="logo_times"> <span>DAL</span></div>
+												</div>
+												
+											</a>	
+										</td>
+
+
+											<td>38</td>
+											<td>44</td>
+											<td><div class="vermelho">
+												2
+												-
+												8
+											</div></td>
+										</tr>
+
+										<tr>
+											<td> <a class="link" href="https://www.nba.com/team/1610612762">
+												
+												<div >
+													<div> <span class="alinharspan"> 12 </span> <img id="jazz" src="timeS/Jazz.png" class="logo_times"> <span>UTA</span></div>
+												</div>
+												
+											</a>	
+										</td>
+
+
+											<td>37</td>
+											<td>45</td>
+											<td><div class="vermelho">
+												2
+												-
+												8
+											</div></td>
+										</tr>
+
+										<tr>
+											<td> <a class="link" href="https://www.nba.com/team/1610612757">
+												
+												<div >
+													<div> <span class="alinharspan"> 13 </span> <img src="timeS/Blazers.png" class="logo_times"> <span>POR</span></div>
+												</div>
+												
+											</a>	
+										</td>
+
+
+											<td>33</td>
+											<td>49</td>
+											<td><div class="vermelho">
+												1
+												-
+												9
+											</div></td>
+										</tr>
+
+										<tr>
+											<td> <a class="link" href="https://www.nba.com/team/1610612745">
+												
+												<div >
+													<div> <span class="alinharspan"> 14 </span> <img src="timeS/Rockets.png" class="logo_times"> <span>HOU</span></div>
+												</div>
+												
+											</a>	
+										</td>
+
+
+											<td>22</td>
+											<td>60</td>
+											<td><div class="laranjinha">
+												4
+												-
+												6
+											</div></td>
+										</tr>
+
+										<tr>
+											<td> <a class="link" href="https://www.nba.com/team/1610612759">
+												
+												<div >
+													<div> <span class="alinharspan"> 15 </span> <img src="timeS/Spurs.png" class="logo_times"> <span>SAS</span></div>
+												</div>
+												
+											</a>	
+										</td>
+
+
+											<td>22</td>
+											<td>60</td>
+											<td><div class="laranja">
+												3
+												-
+												7
+											</div></td>
+										</tr>
+
+										
+
+									</tbody>
+								</thead>
+
+
+
+							</table>
+
+						</div>
+						
+
+						
+
+					</div>
+				</center>
+
+
+			</div>
+
+		</div>
+
+		<div class="footer">
+			<div class="footer1">
+				HOME<br/>
+				todos os direitos reservados
+			</div>
+		</div>
+
+
+
+	</div>
+
+
+
+
+
+
+		<div vw class="enabled">
+
+
+
+			<div vw-access-button class="active"></div>
+			<div vw-plugin-wrapper>
+				<div class="vw-plugin-top-wrapper"></div>
+			</div>
+		</div>
+		<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+		<script>
+			new window.VLibras.Widget('https://vlibras.gov.br/app');
+		</script>
+
+
+</body>
+
+</html>
